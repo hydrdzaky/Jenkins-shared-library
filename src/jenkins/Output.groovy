@@ -1,6 +1,6 @@
 package jenkins;
 class Output {
-    static def hello(steps, string name){
+    static def hello(steps, String name){
         steps.echo ("Hello ${name}")
     } 
 }
